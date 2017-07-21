@@ -1,0 +1,145 @@
+body *{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.wrapper{
+  height: 1150px;
+  width: 1000px;
+  background-color: #062134;
+}
+.header{
+  height: 60px;
+  width: 1000px;
+}
+.header h2{
+  display: inline-block;
+  padding: 15px;
+  color: #fdfdfd;
+  margin-right: 184px;
+}
+.header ul{
+  display: inline-block;
+  padding: 10px;
+  color: #fdfdfd;
+}
+.header li{
+  display: inline-block;
+  color: #fdfdfd;
+  margin-left: 55px;
+}
+.main_content{
+  height: 970px;
+  margin: 15px;
+  background-color: #ffffff;
+}
+.main_content img{
+  margin: 10px;
+  width: 940px;
+}
+.color_change{
+  color: #1992de;
+}
+.info_boxes{
+  height: 250px;
+  width: 297px;
+  display: inline-block;
+  background-color: #1468a8;
+  margin: 10px;
+  color: white;
+}
+.info_boxes img{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 25px
+}
+
+.info_boxes h3{
+  display: inline-block;
+  vertical-align: middle;
+}
+.info_boxes p{
+  margin: 5px;
+}
+.info_boxes button{
+  padding: 10px 20px 10px 20px;
+  margin: 15px;
+  border-radius: 5px;
+  color: white;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#45abeb,#398fcb, #1992de); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#45abeb,#398fcb, #1992de); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#45abeb,#398fcb, #1992de); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#45abeb,#398fcb, #1992de); /* Standard syntax */
+}
+.theworld_cby{
+  width: 297px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+.theworld_cby h3{
+  margin: 10px;
+}
+.theworld_cby img{
+  width: 286px;
+  margin: 0px;
+}
+.goal{
+  width: 297px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.goal p, a{
+  margin: 5px;
+
+}
+
+.testimonial{
+  width: 297px;
+  display: inline-block;
+}
+.testimonial p{
+  font-style: italic;
+}
+.triangle-isosceles {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  color:#000;
+  background:#daedff
+}
+.triangle-isosceles:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#daedff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+.footer{
+  width: 1000px;
+  text-align: center;
+  background-color: #daedff;
+  margin: 0px 15px 15px 15px;
+}
+.footer ul{
+  display: inline-block;
+  text-align: center;
+
+}
+.footer li{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
